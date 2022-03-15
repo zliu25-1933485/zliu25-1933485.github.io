@@ -1,65 +1,82 @@
-body {
-    background-image: url(wood.jpg);
-}
-
-#Header {
-    width: 550px;
-}
-
-footer {
-    position: fixed; 
-    animation: mymove 2s infinite; 
-    transform: rotate(70deg); 
-}
-
-#LeftNav {
-    width: 300px;
-    float: right;
-    padding-bottom: 10px;
-}
-
-#Content {
-    width: 700px;
-    padding: 15px; 
-}
-
-div {
-    border: solid 5px red;
-    text-align: center;
-    background-color: green;
-    margin-bottom: 10px;
+#Header{
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
+    border: solid 8px black;
+    text-align: center;
 }
 
-ul {
+#LeftNav{
+    width: 400px;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: solid 8px black;
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+#Content{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: solid 8px black;
+    text-align: center;
+    padding: 15px;
+}
+
+#Footer{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: solid 8px black;
+    text-align: center;
+}
+
+ul{
     list-style-type: none;
     padding-left: 0px;
 }
 
-h1 , h3{
-    color: #ffbc00;
-    font-size: 60px;
-    font-family: "Passion One";
+#Header h1{ 
+    font-size: 60px; 
+    font-family: "Passion One"; 
+    color: #FFBC00; 
+    font-weight: bold;
+}
+p {
+    font-family: "Arial"; 
+    color: white;
 }
 
-h3 {
+h3{
+    color: #FFBC00;
     font-size: 40px;
+    font-family: "Passion One";
     margin-bottom: 0px;
 }
 
-p {
+
+div{
+    background-color: #8E41D5;
+
+}
+
+body{
+    background-image: url('price.jpg');
+}
+
+a{
     color: white;
-    font-family: "Arial";
-    font-weight: 3px;
+    font-weight: bold;
+    font-style: 24px;
+
 }
 
 
-@keyframes mymove {   
-    from {right: -100%;} 
-    to {right: 100%;} 
-}
-		
-#copyright  {   
-    quotes: """ """;
-}
+
+
+
